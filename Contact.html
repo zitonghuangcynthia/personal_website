@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zitong Huang | Contact</title>
+	<link rel="stylesheet" href="style.css">
+
+	<style>
+	.info-1, .info-2 {
+		width: 530px;
+		margin: 10px;
+		float: left;
+	}
+	.info-1 {
+		font-size: 20px;
+		margin-top: 40px;
+		line-height: 40px;
+	}
+	.wto {
+		width: 530px;
+	}
+
+
+	.form-row {
+		margin: 10px 0px;
+		padding: 10px 20px;
+
+	}
+
+	.main-label {
+		float: left;
+		width: 35%;
+	}
+
+	#comments {
+		width: 50%;
+	}
+
+	button {
+		padding: 10px 20px;
+	}
+
+	#submit-btn {
+		background-color: darkred;
+		color: white;
+	}
+
+	#btn {
+		padding-bottom: 10px;
+		padding-left: 20px;
+	}
+
+	</style>
+
+</head>
+
+<body>
+	<div id="nav-wrapper">	
+		<div id="logo-bar">
+			<a href="Home.html"><img class="logo" src="img/logo.jpeg" alt="logo"></a>
+		</div>
+		<div id="nav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="Education.html">Education</a></li>
+				<li><a href="Expertise.html">Expertise</a></li>
+				<li><a href="Play.html">Work-Play</a></li>
+				<li><a class="active" href="Contact.html">Contact Me</a></li>
+			</ul>
+		</div>
+		<div id="ins-bar">
+			<a href="https://www.instagram.com/cynthia_huang04/"><img class="ins" src="img/ins.png" alt="ins"></a>
+		</div>
+		<div class="clearfloat"></div>	
+	</div>
+
+
+<div id="container">
+
+	<div id="info">
+		<h1>Personal Contact Information</h1>
+		<div class="info-1">
+			<ul>
+				<li>Phone Number: (1)213-569-6645</li>
+				<li>Email Address: chuang95@usc.edu</li>
+				<li>Instagram Account: cynthia_huang04</li>
+				<li>Address: University of Southern California, Webb Tower, 90089</li>
+			</ul>
+		</div>
+		<div class="info-2">
+			<a href="https://housing.usc.edu/index.php/buildings/webb-tower-residential-college/" target="_blank"><img class="wto" src="img/wto.jpeg" alt="wto"></a>
+		</div>
+		<div class="clearfloat"></div>	
+	</div>
+
+	<div id="contact">
+		<h1>Directly Contact Me</h1>
+		<form action="confirmation.html">
+		<div class="form-row">
+			<label class="main-label" for="name">Name:</label>
+			<input id="name" type="text" placeholder="Zitong Huang" required>
+		</div>
+		<div class="form-row">
+			<label class="main-label" for="email">Email:</label>
+			<input id="email" type="email" placeholder="chuang95@usc.edu" required>
+		</div>
+		<div class="form-row">
+			<label class="main-label" for="phone">Phone Number:</label>
+			<input id="phone" type="text" placeholder="(213)569-6645" required>
+		</div>
+		<div class="form-row">
+			<label class="main-label">What's Up:</label>
+			<input id="contact_info" type="checkbox" value="contact_info" name="contact_info"><label for="contact_info">Add contact information</label>
+
+			<input id="LA" type="checkbox" value="LA" name="LA"><label for="LA">Learn more about LA attractions/food</label>
+
+			<input id="play" type="checkbox" value="play" name="play"><label for="play">Play With Me</label>
+		</div>
+		<div class="form-row">
+			<label class="main-label" for="comments">Comments:</label>
+			<textarea id="comments" placeholder="Enter your Comments here"></textarea>
+		</div>
+		<div class="form-row">
+			<label class="main-label"></label>
+			<input id="accept" type="checkbox" value="accept" name="accept" required><label for="accept">I accept the terms and conditions</label>
+		</div>
+
+		<div id="btn">
+			<button id="submit-btn" type="Submit">Submit</button>
+			<button type="Reset">Reset</button>
+		</div>
+	</form>
+	</div>
+
+	
+
+
+
+
+
+
+
+</div>
+
+<div id="footer">
+	<p>Zitong Huang Personal Website</p>
+</div>
+
+</body>
+</html>
